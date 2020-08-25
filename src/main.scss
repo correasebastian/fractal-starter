@@ -1,2 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
-@import '@fortawesome/fontawesome-free/css/all.css'
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Poppins Regular"), url("../fonts/Poppins-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Poppins SemiBold"), url("../fonts/Poppins-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Poppins Bold"), url("../fonts/Poppins-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    src: local("Poppins Black"), url("../fonts/Poppins-Black.woff") format("woff");
+}
