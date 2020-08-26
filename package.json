@@ -6,6 +6,9 @@
     "dev:fractal": "fractal start --sync",
     "dev:css": "parcel watch src/main.scss --no-hmr --public-url /css/ --out-dir public/css --out-file main.css",
     "dev:js": "parcel watch src/main.js --no-hmr --public-url /js/ --out-dir public/js --out-file main.js",
+    "prod:css": "parcel build src/main.scss  --public-url /css/ --out-dir public/css --out-file main.css",
+    "prod:js": "parcel build src/main.js  --public-url /js/ --out-dir public/js --out-file main.js",
+    "prebuild": "npm-run-all --parallel prod:*", 
     "build": "fractal build"
   },
   "dependencies": {
