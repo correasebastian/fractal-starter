@@ -42,4 +42,22 @@
     &__img{
         margin-bottom: -40px;
     }
+
+    &__text{
+        @extend .tcs-py; 
+        font-size: 14px;
+        font-family: $lora-reg;
+        @extend .mb-0;
+    }
+
+    &__body{
+        img{
+            @extend .img-fluid;
+            @extend .tcs-mb;
+        }
+    }
+
+    // &__img-secondary{
+    //     @extend .tcs-mb;
+    // }
 }
