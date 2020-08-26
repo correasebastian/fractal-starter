@@ -5,31 +5,14 @@
             Comforter Basics:
         </h3>
         <div class="d-flex flex-wrap justify-content-between">
-            <div class="tcs-guide__card ">
-                <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                <p class="tcs-guide__card-text text-center">
-                    The Basics
-                </p>
-            </div>
+           {{#each basics}}
             <div class="tcs-guide__card ">
                 <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
                  <p class="tcs-guide__card-text text-center">
-                    Fill
+                    {{title}}
                 </p>
             </div>
-            <div class="tcs-guide__card ">
-                <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                 <p class="tcs-guide__card-text text-center">
-                    Warmth Level
-                </p>
-            </div>
-            <div class="tcs-guide__card ">
-                <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                 <p class="tcs-guide__card-text text-center">
-                    Size
-                </p>
-            </div>
-            
+           {{/each}}
         </div>
     </div>
      <div class="tcs-guide__module tcs-pt">
