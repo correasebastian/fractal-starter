@@ -10,7 +10,8 @@
         text-transform: uppercase;
         font-size: 16px;
         margin-bottom: 0;
-        
+        letter-spacing: 1.5px;
+        font-weight: 500;
     }
 
     &__btt{
@@ -51,6 +52,13 @@
     }
 
     &__body{
+        font-size: 14px;
+        font-family: $lora-reg;
+        p{
+            @extend .tcs-py; 
+            @extend .mb-0;
+        }
+
         img{
             @extend .img-fluid;
             @extend .tcs-mb;
