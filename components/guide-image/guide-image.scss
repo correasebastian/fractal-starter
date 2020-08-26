@@ -1,0 +1,45 @@
+.tcs-guide-jumbo{
+    &__main{
+       background-color: $light-blue; 
+       padding-left: 40px;
+       padding-right: 40px;
+    }
+
+    &__eyeline{
+        color: $blue-2;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 0;
+        
+    }
+
+    &__btt{
+        font-family: $lora-italic;
+        font-size: 14px;
+        color: $blue;
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    &__icon{
+        width: 40px;
+    }
+
+    &__subtitle-container{
+        margin-top: 50px;
+    }
+
+    &__subtitle{
+        color: $blue;
+        font-size: 18px;
+        font-family: $lora-reg;
+    }
+
+    &__title{
+        color: $blue;
+    }
+
+    &__img{
+        margin-bottom: -40px;
+    }
+}

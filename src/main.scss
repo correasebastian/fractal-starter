@@ -85,9 +85,17 @@ html, body {
     height: 100%;
 }
 
+$light-blue:#dae3ea;
+$blue:#134981;
+$blue-2:#0d3559;
+$light-blue-50:#c2d3e0e6; //rgba(218, 227, 234, 0.5);
+
+
 @import "components/jumbo/jumbo";
 @import "components/simple-text/simple-text";
 @import "components/guide/guide";
+@import "components/guide-image/guide-image";
+
 
 .tcs-px{
     padding-left: 20px;
@@ -99,6 +107,9 @@ html, body {
 }
 .tcs-pb{
     padding-bottom: 40px;
+}
+.tcs-mb{
+    margin-bottom: 40px;
 }
 .tcs-py{
     @extend .tcs-pt;
