@@ -1,11 +1,13 @@
 <section class="tcs-guide tcs-px tcs-py">
     <h2 class="tcs-guide__title tcs-h2 mb-0"> What’s Inside Our Guide </h2>
-    <div class="tcs-guide__module tcs-pt">
+    
+    {{#each modules}}
+        <div class="tcs-guide__module tcs-pt">
         <h3 class="tcs-guide__subtitle text-center">
-            Comforter Basics:
+            {{title}}
         </h3>
         <div class="d-flex flex-wrap justify-content-between">
-           {{#each basics}}
+           {{#each cards}}
             <div class="tcs-guide__card ">
                 <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
                  <p class="tcs-guide__card-text text-center">
@@ -15,21 +17,5 @@
            {{/each}}
         </div>
     </div>
-     <div class="tcs-guide__module tcs-pt">
-        <h3 class="tcs-guide__subtitle text-center">
-            More Info:
-        </h3>
-        <div class="d-flex flex-wrap justify-content-between">
-            {{#each moreInfo}}
-            <div class="tcs-guide__card ">
-                <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                 <p class="tcs-guide__card-text text-center">
-                    {{title}}
-                </p>
-            </div>
-           {{/each}}
-            
-            
-        </div>
-    </div>
+    {{/each}}
 </section>
