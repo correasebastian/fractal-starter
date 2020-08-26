@@ -30,6 +30,21 @@ module.exports = {
                     alt="" >
                 `
             }
+		},
+		{
+			name: "warmth",
+            context: {
+                subtitle:"Warmth Level",
+                title: "Choosing Your Comforter’s Warmth Level",
+                mainImage: "https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598452761/sleep.png",
+                richText: `
+                    <p>
+                        No one sleeps the same, so choosing your warmth level comes down 
+                        to personal preference. We offer multiple comforter warmth levels 
+                        in down and down alternative options.  We even have a solution to the battle of the covers with our LaCrosse® Dual Comforter in both fill options—each side is crafted with different warmth levels so both partners can sleep in their preferred temperature. 
+                    </p>
+                `
+            }
 		}
 	]
 };
