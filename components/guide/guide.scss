@@ -1,6 +1,7 @@
 
 $light-blue:#dae3ea;
 $blue:#134981;
+$light-blue-50:#c2d3e0e6; //rgba(218, 227, 234, 0.5);
 
 .tcs-guide{
     background-color: $light-blue;
@@ -14,5 +15,31 @@ $blue:#134981;
         font-family: $lora-italic;
         font-size: 18px;
         font-style: italic;
+    }
+
+    &__card{
+        background-color: $light-blue-50 ;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__card-icon{
+        width: 24px;
+        display: block;
+    }
+
+    &__card-text{
+        font-family: $lora-reg;
+        color: $blue;
+        margin-bottom: 0;
+    }
+}
+
+.seb{
+    >div{
+       
     }
 }
