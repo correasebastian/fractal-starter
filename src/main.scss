@@ -36,6 +36,12 @@
     font-weight: 500;
     src: local("Lora-Regular"), url("../fonts/Lora-Regular.woff") format("woff"); }
   
+@font-face {
+    font-family: 'Lora-Italic';
+    font-style: italic;
+    font-weight: 500;
+    src: local("Lora-Italic"), url("../fonts/Lora-Italic.ttf") format("ttf"); }
+  
   @font-face {
     font-family: 'Lora-Md';
     font-style: normal;
@@ -47,6 +53,10 @@
     font-style: normal;
     font-weight: normal;
     src: local("Poppins Medium"), url("../fonts/Poppins-Medium.woff") format("woff"); }
+
+// fonts
+$lora-reg: 'Lora-Reg';
+$lora-italic: 'Lora-Italic';
 
 html, body {
     color: #222222;
@@ -77,8 +87,25 @@ html, body {
 
 @import "components/jumbo/jumbo";
 @import "components/simple-text/simple-text";
+@import "components/guide/guide";
 
-.tcs-container{
+.tcs-px{
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.tcs-pt{
+    padding-top: 40px;
+}
+.tcs-pb{
+    padding-bottom: 40px;
+}
+.tcs-py{
+    @extend .tcs-pt;
+    @extend .tcs-pb;
+}
+
+.tcs-h2{
+    font-size: 27px;
+}
+
