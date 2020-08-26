@@ -8,12 +8,12 @@
         </h3>
         <div class="d-flex flex-wrap justify-content-between">
            {{#each cards}}
-            <div class="tcs-guide__card ">
+            <a href="{{url}}" class="tcs-guide__card ">
                 <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
                  <p class="tcs-guide__card-text text-center">
                     {{title}}
                 </p>
-            </div>
+            </a> 
            {{/each}}
         </div>
     </div>
