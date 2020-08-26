@@ -17,6 +17,20 @@ module.exports ={
                 url:'',
                 title:'Size'
             },
+        ],
+        moreInfo:[
+            {
+                url:'',
+                title:'How to Clean'
+            },
+            {
+                url:'',
+                title:'FAQ'
+            },
+            {
+                url:'',
+                title:'Reviews'
+            }
         ]
     }
 }
