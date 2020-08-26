@@ -1,0 +1,18 @@
+
+$light-blue:#dae3ea;
+$blue:#134981;
+
+.tcs-guide{
+    background-color: $light-blue;
+
+    &__title{
+        color: $blue;
+    }
+
+    &__subtitle{
+        // TODO 
+        font-family: $lora-italic;
+        font-size: 18px;
+        font-style: italic;
+    }
+}
