@@ -1,0 +1,17 @@
+.tcs-jumbo{
+
+    &__text-container{
+        background-image: linear-gradient(to left, rgba(34, 34, 34, 0.05) 100%, rgba(0, 0, 0, 0.5) 2%);
+    }
+    
+    &__eyeline{
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1.3px;
+    }
+
+    &__title{
+        width: 20ch; // this could be percentage too
+        font-size: 27px;
+    }
+}
