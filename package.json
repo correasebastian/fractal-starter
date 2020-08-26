@@ -5,7 +5,8 @@
     "start": "npm-run-all --parallel dev:* -r",
     "dev:fractal": "fractal start --sync",
     "dev:css": "parcel watch src/main.scss --no-hmr --public-url /css/ --out-dir public/css --out-file main.css",
-    "dev:js": "parcel watch src/main.js --no-hmr --public-url /js/ --out-dir public/js --out-file main.js"
+    "dev:js": "parcel watch src/main.js --no-hmr --public-url /js/ --out-dir public/js --out-file main.js",
+    "build": "fractal build"
   },
   "dependencies": {
     "@frctl/fractal": "^1.3.0",
