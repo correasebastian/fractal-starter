@@ -1,9 +1,13 @@
 .tcs-simple-text{
     background-color: white;
-
-
-
     font-family: $lora-reg;
     font-size: 14px;
     font-weight: normal;
 }
+
+@include media-breakpoint-up(lg) {
+    .tcs-simple-text{
+        font-size: 18px;
+    }
+}
+
