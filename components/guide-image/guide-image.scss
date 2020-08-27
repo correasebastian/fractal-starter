@@ -85,5 +85,15 @@
         &__img{
             margin-bottom: -80px;
         }
+
+        &__body{
+            font-size: 14px;
+            font-family: $lora-reg;
+            p{
+               padding-top: 0px;
+               width: 50%;
+            }
+            
+        }
     }
 }

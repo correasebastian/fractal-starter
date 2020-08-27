@@ -10,7 +10,7 @@ module.exports = {
                 All our comforters (and duvet inserts) have handy loops on all four corners that attach to our duvet cover ties to easily secure both in place.
             </p>
             <img 
-            src="https://res.cloudinary.com/dg1knuetg/image/upload/ar_335:188,c_fill/v1598448868/juice_h7ic1b.png" 
+            src="https://res.cloudinary.com/dg1knuetg/image/upload/w_1440,ar_335:188,c_fill/v1598448868/juice_h7ic1b.png" 
             alt="" >
         `
     },
@@ -26,7 +26,7 @@ module.exports = {
                         Warm and comfortable, lightweight and breathable, down is Mother Nature’s most efficient insulator. Down comforters are long-lasting and resilient if given proper care which makes them a good investment for your bed.
                     </p>
                     <img 
-                    src="https://res.cloudinary.com/dg1knuetg/image/upload/ar_335:188,c_fill/v1598451404/pink.png" 
+                    src="https://res.cloudinary.com/dg1knuetg/image/upload/w_1440,ar_335:188,c_fill/v1598451404/pink.png" 
                     alt="" >
                 `
             }
