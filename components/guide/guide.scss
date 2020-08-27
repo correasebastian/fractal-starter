@@ -23,6 +23,24 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    &__cards-container{
+        .row{
+            margin-right: -10px;
+            margin-left: -10px;
+
+            > div{
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+        }
+    }
+    &__card2{
+        // margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     &__card-icon{
         width: 24px;
         display: block;
