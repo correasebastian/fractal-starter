@@ -27,3 +27,14 @@
     height: 100%;
 }
 
+
+ // utilities
+ .tcs-container-md{
+    @extend .container-md;
+}
+
+ @include media-breakpoint-up(md) {
+    .tcs-container-md{
+        max-width: 660px;
+    }
+ }
