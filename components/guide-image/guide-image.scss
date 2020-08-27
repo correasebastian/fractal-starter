@@ -1,8 +1,6 @@
 .tcs-guide-jumbo{
     &__main{
        background-color: $light-blue-50; 
-       padding-left: 40px;
-       padding-right: 40px;
     }
 
     &__eyeline{
@@ -38,6 +36,7 @@
 
     &__title{
         color: $blue;
+        margin-bottom: 0;
     }
 
     &__img{
@@ -68,4 +67,23 @@
     // &__img-secondary{
     //     @extend .tcs-mb;
     // }
+}
+
+@include media-breakpoint-up(lg) {
+    .tcs-guide-jumbo{
+        &__sidebyside{
+            display: flex;
+            > div{
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+        }
+
+        &__text{
+            width: 18ch;
+        }
+        &__img{
+            margin-bottom: -80px;
+        }
+    }
 }

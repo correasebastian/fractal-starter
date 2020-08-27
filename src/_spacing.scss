@@ -4,7 +4,10 @@
     padding-right: 20px;
 }
 
-
+.tcs-px-2{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 .tcs-pt{
     padding-top: 40px;
@@ -37,5 +40,46 @@
     .tcs-px-md-2{
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .tcs-px-md-4{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@include media-breakpoint-up(lg) {
+    .tcs-py-lg-4{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .tcs-px-lg{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tcs-px-lg-2{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .tcs-px-lg-4{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .tcs-pl-lg-4{
+        padding-left: 80px;
+    }
+    .tcs-pr-lg-4{
+        padding-right: 80px;
+    }
+
+    .tcs-mb-lg-4{
+        margin-bottom: 80px;
+    }
+
+    .mw-lg-100{
+        max-width: 100%;
+    }
+
+    .tcs-pt-4{
+        padding-top: 80px;
     }
 }
