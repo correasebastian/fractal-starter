@@ -1,63 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
 @import "@fortawesome/fontawesome-free/css/all.css";
-
-@font-face {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: normal;
-    src: local("Poppins Regular"), url("../fonts/Poppins-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 600;
-    src: local("Poppins SemiBold"), url("../fonts/Poppins-SemiBold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700;
-    src: local("Poppins Bold"), url("../fonts/Poppins-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 900;
-    src: local("Poppins Black"), url("../fonts/Poppins-Black.woff") format("woff");
-}
-
-
-@font-face {
-    font-family: 'Lora-Reg';
-    font-style: normal;
-    font-weight: 500;
-    src: local("Lora-Regular"), url("../fonts/Lora-Regular.woff") format("woff"); }
-  
-@font-face {
-    font-family: 'Lora-Italic';
-    font-style: italic;
-    font-weight: 500;
-    src: local("Lora-Italic"), url("../fonts/Lora-Italic.ttf") format("ttf"); }
-  
-  @font-face {
-    font-family: 'Lora-Md';
-    font-style: normal;
-    font-weight: 500;
-    src: local("Lora-Regular"), url("../fonts/Lora-Medium.woff") format("woff"); }
-  
-  @font-face {
-    font-family: 'Poppins Md';
-    font-style: normal;
-    font-weight: normal;
-    src: local("Poppins Medium"), url("../fonts/Poppins-Medium.woff") format("woff"); }
-
-// fonts
-$lora-reg: 'Lora-Reg';
-$lora-italic: 'Lora-Italic';
-$poppins-m: 'Poppins Md';
+@import "./fonts";
+@import "./utilities";
+@import "./spacing";
+@import "./colors";
+@import "components/jumbo/jumbo";
+@import "components/simple-text/simple-text";
+@import "components/guide/guide";
+@import "components/guide-image/guide-image";
 
 html, body {
     color: #222222;
@@ -67,67 +17,7 @@ html, body {
     font-weight: 400;
     line-height: 1.5; 
 }
-.d-small{
-    background-color: #ff00dd;
-}
-
-.d-375{
-    width: 375px;
-    background-color: rgb(255, 72, 0);
-}
-.d-768{
-    background-color:rgb(255, 251, 0);
-}
-.d-992{
-    background-color: rgb(0, 255, 13);
-}
-.d-1200{
-    background-color: rgb(0, 255, 255);
-}
-.d-1440{
-    width: 1440px;
-    background-color: rgb(150, 127, 255);
-}
-
-.fill-container{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-$light-blue:#f5f8fa;//#dae3ea;
-$blue:#134981;
-$blue-2:#0d3559;
-$light-blue-50:#e8eef2; //rgba(218, 227, 234, 0.5);
 
 
-@import "components/jumbo/jumbo";
-@import "components/simple-text/simple-text";
-@import "components/guide/guide";
-@import "components/guide-image/guide-image";
 
-
-.tcs-px{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.tcs-pt{
-    padding-top: 40px;
-}
-.tcs-pb{
-    padding-bottom: 40px;
-}
-.tcs-mb{
-    margin-bottom: 40px;
-}
-.tcs-py{
-    @extend .tcs-pt;
-    @extend .tcs-pb;
-}
-
-.tcs-h2{
-    font-size: 27px;
-}
 
