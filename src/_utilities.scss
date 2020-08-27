@@ -28,13 +28,14 @@
 }
 
 
- // utilities
- .tcs-container-md{
-    @extend .container-md;
-}
-
  @include media-breakpoint-up(md) {
     .tcs-container-md{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
         max-width: 660px;
+        border-left: 1px red solid;
     }
  }

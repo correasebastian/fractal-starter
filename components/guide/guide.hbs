@@ -1,21 +1,23 @@
-<section class="tcs-guide tcs-px tcs-py">
-    <h2 class="tcs-guide__title tcs-h2 mb-0"> What’s Inside Our Guide </h2>
-    
-    {{#each modules}}
-        <div class="tcs-guide__module tcs-pt">
-        <h3 class="tcs-guide__subtitle text-center">
-            {{title}}
-        </h3>
-        <div class="d-flex flex-wrap justify-content-between">
-           {{#each cards}}
-            <a href="{{url}}" class="tcs-guide__card ">
-                <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                 <p class="tcs-guide__card-text text-center">
-                    {{title}}
-                </p>
-            </a> 
-           {{/each}}
+<section class="tcs-guide tcs-px  tcs-py px-md-0">
+    <div class="tcs-container-md ">
+         <h2 class="tcs-guide__title tcs-h2 mb-0"> What’s Inside Our Guide </h2>
+        {{#each modules}}
+            <div class="tcs-guide__module tcs-pt">
+            <h3 class="tcs-guide__subtitle text-center">
+                {{title}}
+            </h3>
+            <div class="d-flex flex-wrap justify-content-between">
+            {{#each cards}}
+                <a href="{{url}}" class="tcs-guide__card ">
+                    <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
+                    <p class="tcs-guide__card-text text-center">
+                        {{title}}
+                    </p>
+                </a> 
+            {{/each}}
+            </div>
         </div>
+        {{/each}}
     </div>
-    {{/each}}
+   
 </section>

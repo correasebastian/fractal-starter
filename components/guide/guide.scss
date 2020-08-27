@@ -35,8 +35,28 @@
     }
 }
 
-.seb{
-    >div{
-       
+
+@include media-breakpoint-up(md) {
+    .tcs-guide{
+        &__title{
+            text-align: center;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .tcs-guide{
+        &__card{
+            flex: 0 0 calc(25% - 10px);
+            max-width: calc(25% - 10px);
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .tcs-guide{
+        &__title{
+            text-align: center;
+        }
     }
 }
