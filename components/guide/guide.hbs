@@ -6,47 +6,22 @@
             <h3 class="tcs-guide__subtitle text-center">
                 {{title}}
             </h3>
-            <div class="d-flex flex-wrap justify-content-between">
-            {{#each cards}}
-                <a href="{{url}}" class="tcs-guide__card ">
-                    <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                    <p class="tcs-guide__card-text text-center">
-                        {{title}}
-                    </p>
-                </a> 
-            {{/each}}
+            <div class="tcs-guide__cards-container">
+                <div class="row">
+                    {{#each cards}}
+                        <div class="col-6 col-md-3">
+                            <a href="{{url}}" class="tcs-guide__card d-block w-100 ">
+                                <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
+                                <p class="tcs-guide__card-text text-center">
+                                    {{title}}
+                                </p>
+                            </a>     
+                        </div>
+                       
+                    {{/each}}   
+                </div>
             </div>
         </div>
         {{/each}}
     </div>
-
-    <div class="tcs-guide__cards-container tcs-container-md">
-        <div class="row">
-            <div class="col-6 col-md-4 bg-danger">  <a href="" class=" tcs-guide__card2 bg-primary d-block w-100 ">
-                    <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                    <p class="tcs-guide__card-text text-center">
-                        The basics
-                    </p>
-                </a></div>
-            <div class="col-6 col-md-4 bg-danger">  <a href="" class=" tcs-guide__card2 bg-primary d-block w-100 ">
-                    <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                    <p class="tcs-guide__card-text text-center">
-                        The basics
-                    </p>
-                </a></div>
-            <div class="col-6 col-md-4 bg-danger">  <a href="" class=" tcs-guide__card2 bg-primary d-block w-100 ">
-                    <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                    <p class="tcs-guide__card-text text-center">
-                        The basics
-                    </p>
-                </a></div>
-            <div class="col-6 col-md-4 bg-danger">  <a href="" class=" tcs-guide__card2 bg-primary d-block w-100 ">
-                    <img class="tcs-guide__card-icon img-fluid mx-auto mb-1" src="/images/icon.png" alt="" srcset="">
-                    <p class="tcs-guide__card-text text-center">
-                        The basics
-                    </p>
-                </a></div>
-        </div>
-    </div>
-   
 </section>

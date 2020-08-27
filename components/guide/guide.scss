@@ -14,16 +14,6 @@
         font-style: italic;
     }
 
-    &__card{
-        background-color: $light-blue-50 ;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        flex: 0 0 calc(50% - 10px);
-        max-width: calc(50% - 10px);
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
     &__cards-container{
         .row{
             margin-right: -10px;
@@ -35,9 +25,12 @@
             }
         }
     }
-    &__card2{
-        // margin-left: 10px;
+    
+    &__card{
+        background-color: $light-blue-50 ;
         margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
