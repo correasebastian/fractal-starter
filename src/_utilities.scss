@@ -36,6 +36,16 @@
         margin-right: auto;
         margin-left: auto;
         max-width: 660px;
-        border-left: 1px red solid;
+        // border-left: 1px red solid;
+    }
+ }
+ @include media-breakpoint-up(lg) {
+    .tcs-container-lg{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 660px;
     }
  }

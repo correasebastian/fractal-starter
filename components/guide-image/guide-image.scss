@@ -98,17 +98,15 @@
         }
 
         &__body{
-            font-size: 14px;
-            font-family: $lora-reg;
             p:first-of-type{
                padding-top: 0px;
                width: 50%;
             }
 
             ul,h5{
-                width: 60%;
-                margin-left: auto;
-                margin-right: auto;
+                // width: 60%;
+                // margin-left: auto;
+                // margin-right: auto;
             }
 
             

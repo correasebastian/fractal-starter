@@ -25,14 +25,16 @@ module.exports = {
                     <p>
                         Warm and comfortable, lightweight and breathable, down is Mother Nature’s most efficient insulator. Down comforters are long-lasting and resilient if given proper care which makes them a good investment for your bed.
                     </p>
-                    <h5>Our Down Qualities:</h5>
-                    <ul>
-                        <li>Hypoallergenic</li>
-                        <li>Lightweight and breathable</li>
-                        <li>Premium down, European down, and Hungarian goose down</li>
-                        <li>Most are machine washable for easy care, some are dry clean only</li>
-                        <li>Responsible Down Standard (RDS) certified, ensuring down is ethically sourced </li>
-                    </ul>
+                    <div class="tcs-container-lg">
+                        <h5>Our Down Qualities:</h5>
+                        <ul>
+                            <li>Hypoallergenic</li>
+                            <li>Lightweight and breathable</li>
+                            <li>Premium down, European down, and Hungarian goose down</li>
+                            <li>Most are machine washable for easy care, some are dry clean only</li>
+                            <li>Responsible Down Standard (RDS) certified, ensuring down is ethically sourced </li>
+                        </ul>
+                    </div>
                     <img 
                     src="https://res.cloudinary.com/dg1knuetg/image/upload/w_1440,ar_335:188,c_fill/v1598451404/pink.png" 
                     alt="" >
