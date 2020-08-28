@@ -26,6 +26,9 @@
 .tcs-h2{
     font-size: 27px;
 }
+.translate-ny-2{
+    transform: translateY(40px);
+}
 
 @include media-breakpoint-up(md) {
     .tcs-py-md-4{
