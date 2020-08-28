@@ -1,12 +1,13 @@
-<section class="tcs-cards-features tcs-px tcs-px-lg-4 tcs-mb-3">
-    <div class="bg-lb-50 tcs-px-2">
+<section class="tcs-cards-features px-1 px-lg-4 mb-3">
+    <div class="bg-lb-50 px-2 px-lg-0">
         {{!-- <div class="embed-responsive embed-responsive-16by9"> --}}
            {{!-- <div class="tcs-embed-fill d-flex flex-column justify-content-center"> --}}
         <div class="row">
             <div class="col-12 col-lg-3">
-            <div class=" d-flex flex-column justify-content-center">
-                <h2 class="fc-blue fs-40">
-                    CTA Module  
+            <div class=" position-relative py-3">
+                <img class="tcs-cards-features__logo position-absolute img-fluid" src="https://res.cloudinary.com/dg1knuetg/image/upload/v1598650527/TCSSeal-SmallScalePositive_di4zva.png" alt="" srcset="">
+                <h2 class="fc-blue fs-40 position-relative">
+                    TITLE  
                 </h2>
             </div>
             </div>
@@ -15,7 +16,8 @@
 
                     {{#each cards}}
                     
-                        <div class="tcs-cards-features__card tcs-py col-12 col-lg-4">
+                        <div class="tcs-cards-features__card py-1 col-12 col-lg-4">
+                            <img class="tcs-cards-features__ctaLogo img-fluid" src="https://res.cloudinary.com/dg1knuetg/image/upload/v1598650527/TCSSeal-SmallScalePositive_di4zva.png" alt="" srcset="">
                             <h4 class="fs-16 fc-blue">
                                 {{subtitle1}}
                             </h4>
@@ -28,7 +30,9 @@
                                 {{p2}}
                             </p>
 
-                            <input type="button" value="CTA Button" name="ctaButton" onclick="" />
+                            <div lass="fs-14 ff-lr flh-1p5">
+                                <input class="tcs-cards-features__ctaButton" type="button" value="CTA Button" name="ctaButton" onclick="" />
+                            </div>
                         </div>
                     {{/each}}
                 </div>
