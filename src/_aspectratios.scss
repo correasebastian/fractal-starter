@@ -1,0 +1,63 @@
+@mixin embed-base() {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    &:before{
+        display: block;
+        content: "";
+    }
+}
+
+@mixin embed-fill() {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tcs-embed-fill{
+    @include embed-fill();
+}
+
+@include media-breakpoint-up(md) {
+    .tcs-embed-responsive-md {
+        @include embed-base();
+    }
+    .tcs-embed-fill-md {
+        @include embed-fill();
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .tcs-embed-responsive-lg {
+        @include embed-base();
+    }
+    .tcs-embed-fill-lg {
+        @include embed-fill();
+    }
+}
+
+$aspectratios: (1440: 560, 375: 300, );
+
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+      @each $w, $h in $aspectratios {
+        //   .tcs-embed-responsive-sm-1440by560
+        .tcs-embed-responsive#{$infix}-#{$w}by#{$h}:before {
+          padding-top: ($h*100/$w)* 1%;
+        }
+      }
+
+    }
+}
+
+
+.img-fit{
+    object-fit: cover;
+}
