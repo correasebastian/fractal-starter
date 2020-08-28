@@ -10,9 +10,15 @@
 }
 
 .tcs-pt{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .tcs-pb{
+    padding-bottom: 20px;
+}
+.tcs-pt-2{
+    padding-top: 40px;
+}
+.tcs-pb-2{
     padding-bottom: 40px;
 }
 .tcs-pb-3{
@@ -27,6 +33,10 @@
 .tcs-py{
     @extend .tcs-pt;
     @extend .tcs-pb;
+}
+.tcs-py-2{
+    @extend .tcs-pt-2;
+    @extend .tcs-pb-2;
 }
 
 .tcs-h2{
