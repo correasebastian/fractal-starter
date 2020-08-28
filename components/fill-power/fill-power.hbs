@@ -1,42 +1,48 @@
-<section class="tcs-cards-features tcs-px">
+<section class="tcs-cards-features tcs-px tcs-px-lg-4">
     <div class="bg-lb-50 tcs-px-2">
-        <div class="embed-responsive embed-responsive-16by9">
-           <div class="tcs-embed-fill d-flex flex-column justify-content-center">
-            <h2 class="fc-blue fs-40">
-                Fill Power  
-            </h2>
-           </div>
-        </div>
+        {{!-- <div class="embed-responsive embed-responsive-16by9"> --}}
+           {{!-- <div class="tcs-embed-fill d-flex flex-column justify-content-center"> --}}
+        <div class="row">
+            <div class="col-12 col-lg-3">
+            <div class=" d-flex flex-column justify-content-center">
+                <h2 class="fc-blue fs-40">
+                    Fill Power  
+                </h2>
+            </div>
+            </div>
+            <div class="col-12 col-lg-9">
+                <div class="tcs-cards-features__cards-container row">
 
-        <div class="tcs-cards-features__cards-container">
+                    {{#each cards}}
+                    
+                        <div class="tcs-cards-features__card tcs-py col-12 col-lg-4">
+                            <h3 class="tcs-cards-features__card-title fs-40 fc-lb-30 text-uppercase">
+                                {{title}}
+                            </h3>
 
-            {{#each cards}}
-            
-                <div class="tcs-cards-features__card tcs-py">
-                    <h3 class="tcs-cards-features__card-title fs-46 fc-lb-30">
-                        {{title}}
-                    </h3>
+                            <hr>
 
-                    <hr>
+                            <h4 class="fs-16 fc-blue">
+                                {{subtitle1}}
+                            </h4>
 
-                    <h4 class="fs-16 fc-blue">
-                        {{subtitle1}}
-                    </h4>
+                            <p class="fs-14 ff-lr flh-1p5">
+                                {{p1}}
+                            </p>
 
-                    <p class="fs-14 ff-lr flh-1p5">
-                        {{p1}}
-                    </p>
+                            <h5 class="fc-blue-2 fs-14">
+                                {{subtitle2}}
+                            </h5>
 
-                    <h5 class="fc-blue-2 fs-14">
-                        {{subtitle2}}
-                    </h5>
-
-                    <p class="fs-14 ff-lr flh-1p5">
-                        {{p2}}
-                    </p>
+                            <p class="fs-14 ff-lr flh-1p5">
+                                {{p2}}
+                            </p>
+                        </div>
+                    {{/each}}
                 </div>
-            {{/each}}
+            </div>
         </div>
+
     </div>
 
 </section>
