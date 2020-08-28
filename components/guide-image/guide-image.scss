@@ -53,9 +53,20 @@
     &__body{
         font-size: 14px;
         font-family: $lora-reg;
+        line-height: 1.57;
         p{
             @extend .tcs-py; 
             @extend .mb-0;
+        }
+
+        h5{
+            color: $blue-2;
+            margin-bottom: 12px;
+        }
+
+        ul{
+            padding-left: 20px;
+            line-height: 2;
         }
 
         img{
@@ -89,10 +100,17 @@
         &__body{
             font-size: 14px;
             font-family: $lora-reg;
-            p{
+            p:first-of-type{
                padding-top: 0px;
                width: 50%;
             }
+
+            ul,h5{
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
             
         }
     }
