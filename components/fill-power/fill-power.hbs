@@ -9,29 +9,33 @@
         </div>
 
         <div class="tcs-cards-features__cards-container">
-            <div class="tcs-cards-features__card tcs-py">
-                <h3 class="tcs-cards-features__card-title fs-46 fc-lb-30">
-                    550-550
-                </h3>
 
-                <hr>
+            {{#each cards}}
+            
+                <div class="tcs-cards-features__card tcs-py">
+                    <h3 class="tcs-cards-features__card-title fs-46 fc-lb-30">
+                        {{title}}
+                    </h3>
 
-                <h4 class="fs-16 fc-blue">
-                    GOOD
-                </h4>
+                    <hr>
 
-                <p class="fs-14 ff-lr flh-1p5">
-                    Our 500-550 fill power down provides premium warmth at an affordable price.
-                </p>
+                    <h4 class="fs-16 fc-blue">
+                        {{subtitle1}}
+                    </h4>
 
-                <h5 class="fc-blue-2 fs-14">
-                   Recommended: 
-                </h5>
+                    <p class="fs-14 ff-lr flh-1p5">
+                        {{p1}}
+                    </p>
 
-                <p class="fs-14 ff-lr flh-1p5">
-                    Lacrosse
-                </p>
-            </div>
+                    <h5 class="fc-blue-2 fs-14">
+                        {{subtitle2}}
+                    </h5>
+
+                    <p class="fs-14 ff-lr flh-1p5">
+                        {{p2}}
+                    </p>
+                </div>
+            {{/each}}
         </div>
     </div>
 
