@@ -37,6 +37,7 @@
     &__title{
         color: $blue;
         margin-bottom: 0;
+
     }
 
     &__img{
@@ -92,6 +93,9 @@
 
         &__text{
             width: 18ch;
+        }
+        &__title{
+            width: 20ch;
         }
         &__img{
             margin-bottom: -80px;
