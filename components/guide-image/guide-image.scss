@@ -100,7 +100,7 @@
 
         &__body{
             p:first-of-type{
-               padding-top: 0px;
+               @extend .pt-lg-0;
                width: 50%;
             }
 

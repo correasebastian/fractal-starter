@@ -9,3 +9,20 @@
 .z-1{
     z-index: 1;
 }
+
+.mw-lg-100{
+    max-width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+
+    .btn-md-w{
+        width: 300px;
+    }
+}
+@include media-breakpoint-up(lg) {
+
+    .btn-lg-w{
+        width: 300px;
+    }
+}
