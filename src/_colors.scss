@@ -1,5 +1,5 @@
 
-$light-blue:#f5f8fa;//#dae3ea;
+$light-blue: #dae3ea ;//#f5f8fa;//#dae3ea;
 $blue:#134981;
 $blue-2:#0d3559;
 $light-blue-50:#e8eef2; //rgba(218, 227, 234, 0.5);
@@ -19,4 +19,12 @@ $white: white;
 }
 .fc-lb-30{
     color: $light-blue-30;
+}
+
+.btn-primary {
+    @include button-variant($blue, $blue, $hover-background:$light-blue , $hover-border:$light-blue);
+
+    &:hover{
+        color: $blue;
+    }
 }
