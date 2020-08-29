@@ -45,7 +45,7 @@
     }
 
     &__text{
-        @extend .tcs-py; 
+        @extend .py-1; 
         font-size: 14px;
         font-family: $lora-reg;
         @extend .mb-0;
@@ -56,7 +56,7 @@
         font-family: $lora-reg;
         line-height: 1.57;
         p{
-            @extend .tcs-py; 
+            @extend .py-1; 
             @extend .mb-0;
         }
 
@@ -72,13 +72,10 @@
 
         img{
             @extend .img-fluid;
-            @extend .tcs-mb;
+            @extend .mb-1;
         }
     }
 
-    // &__img-secondary{
-    //     @extend .tcs-mb;
-    // }
 }
 
 @include media-breakpoint-up(lg) {
