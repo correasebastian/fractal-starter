@@ -26,68 +26,91 @@
     src: local("Poppins Black"), url("../fonts/Poppins-Black.woff") format("woff");
 }
 
-
 @font-face {
-    font-family: 'Lora-Reg';
+    font-family: "Lora-Reg";
     font-style: normal;
     font-weight: 500;
-    src: local("Lora-Regular"), url("../fonts/Lora-Regular.woff") format("woff"); }
-  
+    src: local("Lora-Regular"), url("../fonts/Lora-Regular.woff") format("woff");
+}
+
 @font-face {
-    font-family: 'Lora-Italic';
+    font-family: "Lora-Italic";
     font-style: italic;
     font-weight: 500;
-    src: local("Lora-Italic"), url("../fonts/Lora-Italic.ttf") format("ttf"); }
-  
-  @font-face {
-    font-family: 'Lora-Md';
+    src: local("Lora-Italic"), url("../fonts/Lora-Italic.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Lora-Md";
     font-style: normal;
     font-weight: 500;
-    src: local("Lora-Regular"), url("../fonts/Lora-Medium.woff") format("woff"); }
-  
-  @font-face {
-    font-family: 'Poppins Md';
+    src: local("Lora-Regular"), url("../fonts/Lora-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Poppins Md";
     font-style: normal;
     font-weight: normal;
-    src: local("Poppins Medium"), url("../fonts/Poppins-Medium.woff") format("woff"); }
+    src: local("Poppins Medium"), url("../fonts/Poppins-Medium.woff") format("woff");
+}
 
 // fonts
-$lora-reg: 'Lora-Reg';
-$lora-italic: 'Lora-Italic';
-$poppins-m: 'Poppins Md';
+$lora-reg: "Lora-Reg";
+$lora-italic: "Lora-Italic";
+$poppins-m: "Poppins Md";
 
-
-
-
-.fs-14{
-    font-size: 14px;
-}
-.fs-12{
+.fs-12 {
     font-size: 12px;
 }
-.fs-16{
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
     font-size: 16px;
 }
-.fs-18{
+.fs-18 {
     font-size: 18px;
 }
-.fs-38{
+.fs-38 {
     font-size: 38px;
 }
-.fs-40{
+.fs-40 {
     font-size: 40px;
 }
 // .fs-46{
 //     font-size: 46px;
 // }
-.ff-lr{
+.ff-lr {
     font-family: $lora-reg;
 }
-.ff-pm{
-    font-family: $poppins-m
+.ff-pm {
+    font-family: $poppins-m;
 }
 
-.flh-1p5{
+.flh-1p5 {
     line-height: 1.57;
+}
 
+
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+      .tcs-copy#{$infix}-small{
+        font-family: $lora-reg;
+        font-size: 12px;
+        line-height: 16px;
+        }
+        .tcs-copy#{$infix}-medium{
+            font-family: $lora-reg;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .tcs-copy#{$infix}-large{
+            font-family: $lora-reg;
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
 }
