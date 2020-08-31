@@ -1,3 +1,2 @@
 import 'bootstrap'
-
-console.log('sebasss')
+import '../components/carousel/carousel'
