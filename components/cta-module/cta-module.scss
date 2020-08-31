@@ -1,0 +1,31 @@
+.tcs-cards-features{
+    &__ctaLogo{
+        width: auto;
+        height: 196px;
+    }
+
+    &__ctaButton{
+        width: 223px;
+        height: 36px;
+        background-color: $white;
+        border: none;
+        color: $blue-2;
+    }
+
+}
+
+@include media-breakpoint-up(md) {
+    .tcs-cards-features{
+        background-color: $light-blue-50;
+
+        &__ctaLogo{
+            top: 38px;
+            left: -15px;
+        }
+
+        &__ctaButton{
+            width: 100%;
+        }
+    }
+}
+
