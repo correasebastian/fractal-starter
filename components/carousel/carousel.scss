@@ -4,8 +4,56 @@
     padding-right: 20px;
     margin-bottom: 80px;
 
+    &--best-seller{
+        @extend .bg-primary-light;
+
+        .tcs-carousel__title{
+            @extend .text-center;
+        }
+
+    }
+
+    $yellow:#e7dc97;
+
+    &--warmth{
+        padding-left: 40px;
+        padding-right: 40px;
+        // transform: rotate(180deg);
+        mix-blend-mode: multiply;
+        background-image: linear-gradient(to left,rgba(255, 255, 255, 0), $yellow );
+        position: relative;
+
+        .tcs-carousel__title{
+            width: 11ch;
+            position: relative;
+        }
+
+        .tcs-carousel__bg-image{
+            width: 200px;
+            opacity: .6;
+            position: absolute;
+            left: 11ch;
+            top: 30px
+        }
+        .swiper-pagination {
+            padding-left: 40px;
+            text-align: left;
+            
+        }
+
+        .tcs-carousel__slide-icon{
+            width: 30px;
+            
+        }
+    }
+
+   
+
     &.swiper-container-horizontal > .swiper-pagination-bullets{
         bottom: 30px;
+    }
+    .swiper-pagination-bullet-active {
+        background: $primary;
     }
 
     &__slide-title{

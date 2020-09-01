@@ -1,0 +1,25 @@
+
+<section class="tcs-carousel tcs-carousel--warmth swiper-container py-4 ">
+    
+    <img class="tcs-carousel__bg-image " src="https://res.cloudinary.com/dg1knuetg/image/upload/c_scale,w_200/v1598929797/Snow_p0zvpl.png" alt="">
+    <h2 class="tcs-carousel__title fs-40 text-primary  mb-2">
+        Compare Warmth Levels
+    </h2>
+    <div class="swiper-wrapper ">
+        {{#each slides}}
+         <div class="swiper-slide">
+            <img class="tcs-carousel__slide-icon img-fluid" src="https://res.cloudinary.com/dg1knuetg/image/upload/v1598930574/Sun-blue_ztmq7e.svg" alt="" srcset="">
+            {{!-- <img class="tcs-carousel__slide-icon img-fluid" src="https://res.cloudinary.com/dg1knuetg/image/upload/v1598930574/Sun-blue_ztmq7e.svg" alt="" srcset=""> --}}
+            <h3 class=" tcs-carousel__slide-title fs-16 ff-pm text-primary text-uppercase">
+                {{title}}            
+            </h3>
+            <p class="fs-14 ff-lr ">
+                {{text}}
+            </p>
+
+        </div>
+        {{/each}}
+        
+    </div>
+    <div class="swiper-pagination"></div>
+</section>

@@ -1,26 +1,10 @@
-{{!-- <section class="tcs-carousel pt-3 pb-1">
-<h2 class="fs-27 text-primary">
-    Shop Our Best Sellers
-</h2>
 
-<div class="tcs-carousel-slide">
-    <img src="https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598883146/car-1.png" alt="" srcset="">
-</div>
-<div class="tcs-carousel-slide">
-    <img src="https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598883155/car-2.png" alt="" srcset="">
-</div>
-<div class="tcs-carousel-slide">
-    <img src="https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598883165/car-3.png" alt="" srcset="">
-</div>
-</section> --}}
-
-<section class="tcs-carousel swiper-container py-4 bg-primary-light">
-    <h2 class="fs-27 text-primary text-center mb-2">
+<section class="tcs-carousel tcs-carousel--best-seller swiper-container py-4 bg-primary-light">
+    
+    <h2 class="tcs-carousel__title fs-27 text-primary text-center mb-2">
         Shop Our Best Sellers
     </h2>
-    <!-- Additional required wrapper -->
     <div class="swiper-wrapper ">
-        <!-- Slides -->
         {{#each slides}}
          <div class="swiper-slide ">
             <img src="{{img}}" alt="" srcset="">
@@ -39,13 +23,5 @@
         {{/each}}
         
     </div>
-    <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
-{{!-- 
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div> --}}
 </section>

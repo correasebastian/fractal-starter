@@ -6,22 +6,32 @@ import $ from 'jquery'
 
 $(function () {
     // debugger;
-    var mySwiper = new Swiper('.swiper-container', {
-        // Optional parameters
-        // direction: 'vertical',
-        // loop: true,
-
-        // If we need pagination
+    var mySwiper = new Swiper('.tcs-carousel--best-seller', {
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
-
         slidesPerView: 1.15,
-        // slidesPerView: "auto",
         spaceBetween: 20,
+        breakpoints: {
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40
+            },
+            992: {
+              slidesPerView: 3,
+              spaceBetween: 40
+            }
+          }
+    })
 
-
+    var mySwiper = new Swiper('.tcs-carousel--warmth', {
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        slidesPerView: 1.4,
+        spaceBetween: 20,
         breakpoints: {
             768: {
               slidesPerView: 2,
