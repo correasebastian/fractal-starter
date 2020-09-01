@@ -21,15 +21,16 @@ $(function () {
         // slidesPerView: "auto",
         spaceBetween: 20,
 
-        // // Navigation arrows
-        // navigation: {
-        //     nextEl: '.swiper-button-next',
-        //     prevEl: '.swiper-button-prev',
-        // },
 
-        // // And if we need scrollbar
-        // scrollbar: {
-        //     el: '.swiper-scrollbar',
-        // },
+        breakpoints: {
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40
+            },
+            992: {
+              slidesPerView: 3,
+              spaceBetween: 80
+            }
+          }
     })
 })

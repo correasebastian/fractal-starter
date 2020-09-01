@@ -56,11 +56,3 @@
     }
 }
 
-
-@include media-breakpoint-up(md) {
-    .tcs-guide{
-        &__title{
-            text-align: center;
-        }
-    }
-}
