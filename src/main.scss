@@ -31,3 +31,13 @@ html, body {
 
 
 
+.slot-container.slot-container--nopadding{
+    max-width: 100%;
+    >.row{
+        display: block;
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+       
+    }
+}
