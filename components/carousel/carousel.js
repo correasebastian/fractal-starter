@@ -17,8 +17,8 @@ $(function () {
             clickable: true,
         },
 
-        // slidesPerView: 1.2,
-        slidesPerView: "auto",
+        slidesPerView: 1.2,
+        // slidesPerView: "auto",
         spaceBetween: 20,
 
         // // Navigation arrows
