@@ -16,6 +16,19 @@
     opacity: 0.15;
 }
 
+.image-div{
+    display: flex;
+    background: $light-blue-50;
+    width: 630px;
+    height: 354px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.baffle-image{
+    padding-top: 100px;
+}
+
 @include media-breakpoint-up(lg) {
     .tcs-simple-text{
         font-size: 18px;

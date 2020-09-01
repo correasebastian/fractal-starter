@@ -89,5 +89,20 @@ module.exports ={
                 ]
             }
         },
+        {
+            name:"baffleBox",
+            context:{
+                images:[
+                    {
+                        img:"https://res.cloudinary.com/dg1knuetg/image/upload/ar_16:9,c_fill,w_400/v1598975074/Screen_Shot_2020-09-01_at_11.44.29_AM_otffl2.png",
+                        subtitle:"Baffle Box Construction"
+                    },
+                    {
+                        img:"https://res.cloudinary.com/dg1knuetg/image/upload/ar_16:9,c_fill,w_400/v1598975124/Screen_Shot_2020-09-01_at_11.44.45_AM_zvrpag.png",
+                        subtitle:"Sewn Through Construction"
+                    }
+                ]
+            }
+        },
     ]
 }
