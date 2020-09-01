@@ -1,0 +1,20 @@
+
+<section class="tcs-carousel tcs-carousel--guides swiper-container py-4 px-lg-8 mx-lg-0 mb-lg-0 bg-primary-light">
+    
+    <h2 class="tcs-carousel__title fs-27 text-primary text-center mb-2">
+        Read More Guides
+    </h2>
+    <div class="swiper-wrapper ">
+        {{#each slides}}
+         <div class="swiper-slide ">
+            <img src="{{img}}" alt="" srcset="">
+            <h3 class=" tcs-carousel__slide-title fs-14 ff-lr text-primary text-center">
+                Sheet Guide
+            </h3>
+            <button class="tcs-carousel__button fs-12 ff-pm btn btn-primary btn-block">READ NOW</button>
+        </div>
+        {{/each}}
+        
+    </div>
+    <div class="swiper-pagination"></div>
+</section>

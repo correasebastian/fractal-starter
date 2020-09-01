@@ -43,4 +43,23 @@ $(function () {
             }
           }
     })
+
+    var mySwiper = new Swiper('.tcs-carousel--guides', {
+      pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+      },
+      slidesPerView: 1.15,
+      spaceBetween: 20,
+      breakpoints: {
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 40
+          }
+        }
+  })
 })
