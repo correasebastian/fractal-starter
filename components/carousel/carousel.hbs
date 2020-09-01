@@ -21,15 +21,12 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper ">
         <!-- Slides -->
-        <div class="swiper-slide ">
-            <img src="https://res.cloudinary.com/dg1knuetg/image/upload/w_536,ar_1:1,c_fill/v1598883146/car-1.png" alt="" srcset="">
+        {{#each slides}}
+         <div class="swiper-slide ">
+            <img src="{{img}}" alt="" srcset="">
         </div>
-        <div class="swiper-slide ">
-            <img src="https://res.cloudinary.com/dg1knuetg/image/upload/w_536,ar_1:1,c_fill/v1598883155/car-2.png" alt="" srcset="">
-        </div>
-        <div class="swiper-slide ">
-            <img src="https://res.cloudinary.com/dg1knuetg/image/upload/w_536,ar_1:1,c_fill/v1598883165/car-3.png" alt="" srcset="">
-        </div>
+        {{/each}}
+        
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>

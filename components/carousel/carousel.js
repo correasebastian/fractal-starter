@@ -17,7 +17,7 @@ $(function () {
             clickable: true,
         },
 
-        slidesPerView: 1.2,
+        slidesPerView: 1.15,
         // slidesPerView: "auto",
         spaceBetween: 20,
 
