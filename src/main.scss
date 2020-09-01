@@ -41,3 +41,9 @@ html, body {
        
     }
 }
+
+@include media-breakpoint-down(lg){
+    .tcs-jumbo{
+        margin-top: 216px;
+    }
+}
