@@ -55,6 +55,20 @@ module.exports = {
                     </p>
                 `
             }
+		},
+		{
+			name: "size",
+            context: {
+                subtitle:"Size",
+                title: "Choose the Best Comforter Size ",
+                mainImage: "https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598968031/size_rm3u6v.png",
+                richText: `
+                    <p>
+                    What size comforter should you get? Obviously you want to consider the size of your bed, but also consider the look you prefer—do you want the comforter to just sit on the bed or do you want it to hang off the bed more like a bedspread? 
+                    We have the four main sizes: Twin, Full, Queen, and King/California King. But did you know that we also have specialty sizes, such as Twin XL, Oversized Queen, and Oversized King.                   
+                    </p>
+                `
+            }
 		}
 	]
 };
