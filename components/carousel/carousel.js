@@ -25,7 +25,7 @@ $(function () {
           }
     })
 
-    var mySwiper = new Swiper('.tcs-carousel--warmth', {
+    var mySwiper = new Swiper('.tcs-carousel--warmth-slider', {
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -34,11 +34,11 @@ $(function () {
         spaceBetween: 20,
         breakpoints: {
             768: {
-              slidesPerView: 2,
+              slidesPerView: 3,
               spaceBetween: 40
             },
             992: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 40
             }
           }

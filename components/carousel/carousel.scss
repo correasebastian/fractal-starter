@@ -43,7 +43,7 @@
 
         .tcs-carousel__slide-icon{
             width: 30px;
-            
+
         }
     }
 
@@ -89,5 +89,23 @@
         padding-right: 60px;
         margin-left: 80px;
         margin-right: 80px;
+        
+        &__desktop{
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+
+        .swiper-pagination{
+            display: none;
+        }
     }
+    .tcs-carousel--warmth{
+        background: rgb(231,220,151);
+        background: linear-gradient(90deg, rgba(231,220,151,1) 0%, rgba(245,236,236,1) 50%, rgba(203,195,220,1) 100%);
+    }
+    .tcs-carousel--warmth-slider{
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
 }
