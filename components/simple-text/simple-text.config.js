@@ -65,9 +65,28 @@ module.exports ={
             }
         },
         {
-            name:"rviews",
+            name:"reviews",
             context:{
-
+                reviews:[
+                    {
+                        title:"LaCrosse® RDS Certified Down Comforter",
+                        subtitle:"Perfect. I love it.",
+                        text:"Got this down comforter in the mail today. I couldn't be happier. No crunchy crackle when I opened the bag. I just had to lay it on the bed and it was so fluffy. I can't explain how much I love this comforter. Perfect fit. The only reason I gave it 5 stars is because there wasn't a higher star.",
+                        author:"Dr. Wolf, Montana"
+                    },
+                    {
+                        title:"Legends® Luxury Geneva PrimaLoft® Deluxe Down Alternative Comforter",
+                        subtitle:"Keeps your body heat in & outside cold out— PrimaLoft® works",
+                        text:"I'm tired of down and the feathers getting all over the place as it ages, so this is the first time using a PrimaLoft® comforter. I bought a queen size, medium warmth comforter. I live in Connecticut and sleep in the bedroom facing the north side (no sun) of the house. The room can get cold! In fact… Read more",
+                        author:"Mark, Central Connecticut"
+                    },
+                    {
+                        title:"Alberta™ RDS Certified European Down Baffled Comforter",
+                        subtitle:"Great mid-weight comforter",
+                        text:"We own many comforters for family and guests. We bought these two on reviews that the heat retention and baffling were exceptional. They are. A true pleasure to use. The feel of the cover is perfect, as is the loft. Our favorite comforters from over 20 years of purchases.",
+                        author:"STWLJW, Montana "
+                    }
+                ]
             }
         },
     ]
