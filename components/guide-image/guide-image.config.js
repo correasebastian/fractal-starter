@@ -83,6 +83,24 @@ module.exports = {
                     </p>
                 `
             }
-		}
+		},
+		{
+			name: "faq",
+            context: {
+                subtitle:"",
+                title: "Comforter FAQs",
+                mainImage: "https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598969683/faq_y7ozam.png",
+               
+            }
+		},
+		{
+			name: "reviews",
+            context: {
+                subtitle:"",
+                title: "Customer Reviews",
+                mainImage: "https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598969683/reviews_xpbb6w.png",
+                
+            }
+		},
 	]
 };
