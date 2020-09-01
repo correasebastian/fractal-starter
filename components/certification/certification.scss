@@ -9,6 +9,9 @@
     &__collapse-card{
         border-bottom: 2px solid $light-blue;
 
+        button{
+            max-width: 100%;
+        }
         button[aria-expanded="true"]{
             .open-icon{
                 display: none;

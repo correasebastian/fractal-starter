@@ -29,7 +29,7 @@ $(function () {
             },
             992: {
               slidesPerView: 3,
-              spaceBetween: 80
+              spaceBetween: 40
             }
           }
     })

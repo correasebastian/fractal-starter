@@ -95,6 +95,11 @@ $poppins-m: "Poppins Md";
     line-height: 1.57;
 }
 
+@include media-breakpoint-up(lg){
+    .fs-lg-38 {
+        font-size: 38px;
+    }
+}
 
 
 @each $breakpoint in map-keys($grid-breakpoints) {
@@ -117,4 +122,8 @@ $poppins-m: "Poppins Md";
             line-height: 30px;
         }
     }
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: none;
 }
