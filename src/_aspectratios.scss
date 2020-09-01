@@ -40,7 +40,7 @@
     }
 }
 
-$aspectratios: (1440: 560, 375: 300, );
+$aspectratios: (1440: 560, 375: 300, 335: 188 );
 
 
 @each $breakpoint in map-keys($grid-breakpoints) {
