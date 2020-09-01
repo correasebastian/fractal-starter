@@ -69,6 +69,20 @@ module.exports = {
                     </p>
                 `
             }
+		},
+		{
+			name: "clean",
+            context: {
+                subtitle:"How to Clean",
+                title: "How to Care for Your Down or Down Alternative Comforter",
+                mainImage: "https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598968694/clean_uvaqg8.png",
+                richText: `
+                    <p>
+                    A premium comforter is an investment, so always follow the individual comforter care instructions. 
+                    Washing and drying your comforter the right way will help it maintain its insulating qualities and shell construction throughout the years.
+                    </p>
+                `
+            }
 		}
 	]
 };
