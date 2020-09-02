@@ -34,11 +34,11 @@
 
  @include media-breakpoint-up(md) {
     .tcs-container-md{
-        width: 100%;
+        width: 100% !important;
         padding-right: 15px !important;
         padding-left: 15px !important;
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: auto !important;
+        margin-left: auto !important;
         max-width: 660px;
         // border-left: 1px red solid;
     }

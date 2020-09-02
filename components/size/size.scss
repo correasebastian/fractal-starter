@@ -1,0 +1,25 @@
+$table-row-color:#c4d0d980; //improvised
+.tcs-size{
+    &__table{
+        thead{
+            &:after{
+                content: ""; //the magic to display the border bottom
+
+            }
+        }
+        tr, thead{
+            border-bottom: 1.5px solid $table-row-color;
+        }
+       
+        tr:last-of-type{
+            border-bottom: none;
+        }
+        
+        th{
+            width: 50%;
+            font-weight: 400;
+            
+        }
+
+    }
+}

@@ -99,6 +99,10 @@ $poppins-m: "Poppins Md";
 }
 
 @include media-breakpoint-up(lg){
+    .fs-lg-24 {
+        font-size: 24px;
+        line-height: 1.33;
+    }
     .fs-lg-38 {
         font-size: 38px;
     }
