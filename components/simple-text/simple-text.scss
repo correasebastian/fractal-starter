@@ -34,10 +34,7 @@
     float: left;
 }
 
-.pt-2-baffle{
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
+
 
 .baffle-down-text{
     font-family: $lora-reg;
@@ -45,8 +42,8 @@
     text-align: center;
 }
 
-.baffle-down-image{
-   display: none;
+.d-baffle-image{
+    width: 234px;
 }
 
 @include media-breakpoint-up(lg) {
@@ -55,18 +52,9 @@
     }
 }
 
-@include media-breakpoint-up(md) {
-    // .image-div{
-    //     display: flex;
-    //     // height: 354px;
-    // }
-    .baffle-down-image{
-        display: block;
-        margin-top: -124px;
-        width: 234px;
-        height: 234px;
-    }
+@include media-breakpoint-up(lg) {
     .baffle-paragraph{
         margin-top: 80px;
     }
+   
 }
