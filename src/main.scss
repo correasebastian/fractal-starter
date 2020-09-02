@@ -51,8 +51,14 @@ html, body {
     background-color: white;
 }
 
-@include media-breakpoint-down(lg){
+// fix header on "mobile experience"
+@media screen and (max-width: 65em){
     .tcs-jumbo{
         margin-top: 216px;
     }
+    .c-header__logo.c-header__logo{
+        height: 65px;
+    }
 }
+
+
