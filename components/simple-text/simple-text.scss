@@ -18,12 +18,12 @@
 
 .image-div{
     display: flex;
-    margin-top: 80px;
-    height: 354px;
+    // height: 354px;
 }
 
 .baffle-image-text{
-    padding-top: 100px;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .baffle-image{
@@ -31,11 +31,12 @@
 }
 
 .baffle-paragraph{
-float: left;}
+    float: left;
+}
 
 .pt-2-baffle{
     padding-top: 35px;
-    height: 174px;
+    padding-bottom: 35px;
 }
 
 .baffle-down-text{
@@ -55,14 +56,12 @@ float: left;}
 }
 
 @include media-breakpoint-up(md) {
-    .image-div{
-        display: flex;
-        margin-top: 80px;
-        height: 354px;
-    }
+    // .image-div{
+    //     display: flex;
+    //     // height: 354px;
+    // }
     .baffle-down-image{
         display: block;
-        float: right;
         margin-top: -124px;
         width: 234px;
         height: 234px;

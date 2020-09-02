@@ -8,6 +8,8 @@ $light-blue-30:#829ebc; //rgba(218, 227, 234, 0.5);
 $white: white;
 $gray: #767676;
 
+$trick:#dfe7ec;
+
 
 
 $enable-rounded: false;
@@ -26,5 +28,9 @@ $spacers:(
     4: ($spacer * 4),
     5: ($spacer * 5),
     8: ($spacer * 8)
-  )
+  );
   
+
+.bg-trick{
+  background-color: $trick;
+}
