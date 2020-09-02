@@ -34,8 +34,6 @@
     float: left;
 }
 
-
-
 .baffle-down-text{
     font-family: $lora-reg;
     color: $blue;
@@ -57,4 +55,10 @@
         margin-top: 80px;
     }
    
+}
+
+
+.tcs-bafflebox__image-float{
+    margin-top: -40px;
+    margin-bottom: -40px;
 }
