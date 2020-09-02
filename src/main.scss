@@ -42,6 +42,14 @@ html, body {
     }
 }
 
+.c-header__container{
+    height: auto;
+}
+
+.fixed-header{
+    background-color: white;
+}
+
 @include media-breakpoint-down(lg){
     .tcs-jumbo{
         margin-top: 216px;
