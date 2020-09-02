@@ -18,19 +18,56 @@
 
 .image-div{
     display: flex;
-    background: $light-blue-50;
-    width: 630px;
-    height: 354px;
     margin-top: 80px;
-    margin-bottom: 80px;
+    height: 354px;
+}
+
+.baffle-image-text{
+    padding-top: 100px;
 }
 
 .baffle-image{
-    padding-top: 100px;
+    opacity: .7;
+}
+
+.baffle-paragraph{
+float: left;}
+
+.pt-2-baffle{
+    padding-top: 35px;
+    height: 174px;
+}
+
+.baffle-down-text{
+    font-family: $lora-reg;
+    color: $blue;
+    text-align: center;
+}
+
+.baffle-down-image{
+   display: none;
 }
 
 @include media-breakpoint-up(lg) {
     .tcs-simple-text{
         font-size: 18px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .image-div{
+        display: flex;
+        margin-top: 80px;
+        height: 354px;
+    }
+    .baffle-down-image{
+        display: block;
+        float: right;
+        margin-top: -124px;
+        width: 234px;
+        height: 234px;
+    }
+    .baffle-paragraph{
+        margin-top: 80px;
     }
 }
