@@ -28,11 +28,11 @@ module.exports = {
                     <div class="tcs-container-lg">
                         <h5>Our Down Qualities:</h5>
                         <ul>
-                            <li>Hypoallergenic</li>
-                            <li>Lightweight and breathable</li>
-                            <li>Premium down, European down, and Hungarian goose down</li>
-                            <li>Most are machine washable for easy care, some are dry clean only</li>
-                            <li>Responsible Down Standard (RDS) certified, ensuring down is ethically sourced </li>
+                            <li class="fc-blue"><spam class="fc-body">Hypoallergenic</spam></li>
+                            <li class="fc-blue"><spam class="fc-body">Lightweight and breathable</spam></li>
+                            <li class="fc-blue"><spam class="fc-body">Premium down, European down, and Hungarian goose down</spam></li>
+                            <li class="fc-blue"><spam class="fc-body">Most are machine washable for easy care, some are dry clean only</spam></li>
+                            <li class="fc-blue"><spam class="fc-body">Responsible Down Standard (RDS) certified, ensuring down is ethically sourced </spam></li>
                         </ul>
                     </div>
                     <img 
