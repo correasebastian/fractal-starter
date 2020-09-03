@@ -11,7 +11,7 @@ module.exports = {
             </p>
             <img 
             src="https://res.cloudinary.com/dg1knuetg/image/upload/w_1440,ar_335:188,c_fill/v1598448868/juice_h7ic1b.png" 
-            alt="" >
+            alt="" class="mt-1">
         `
     },
     variants: [
@@ -37,7 +37,7 @@ module.exports = {
                     </div>
                     <img 
                     src="https://res.cloudinary.com/dg1knuetg/image/upload/w_1440,ar_335:188,c_fill/v1598451404/pink.png" 
-                    alt="" >
+                    alt="" class="mt-1 pt-lg-0" >
                 `
             }
 		},
