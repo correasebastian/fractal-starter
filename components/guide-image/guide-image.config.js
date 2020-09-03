@@ -16,7 +16,7 @@ module.exports = {
     },
     variants: [
 		{
-			name: "fill",
+            name: "fill",
             context: {
                 subtitle:"Fill",
                 title: "Down vs. Down Alternative",
@@ -87,7 +87,7 @@ module.exports = {
 		{
 			name: "faq",
             context: {
-                subtitle:"",
+                subtitle:"FAQ",
                 title: "Comforter FAQs",
                 mainImage: "https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598969683/faq_y7ozam.png",
                 richText: ""
@@ -96,7 +96,7 @@ module.exports = {
 		{
 			name: "reviews",
             context: {
-                subtitle:"",
+                subtitle:"Reviews",
                 title: "Customer Reviews",
                 mainImage: "https://res.cloudinary.com/dg1knuetg/image/upload/ar_1:1,c_fill/v1598969683/reviews_xpbb6w.png",
                 richText: ""

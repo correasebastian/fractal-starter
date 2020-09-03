@@ -5,19 +5,19 @@ module.exports ={
                 title:'Comforter Basics:',
                 cards:[
                     {
-                        url:'',
+                        href:"#The Basics",
                         title:'The basics'
                     },
                     {
-                        url:'',
+                        href:"#Fill",
                         title:'Fill'
                     },
                     {
-                        url:'',
+                        href:'#Warmth Level',
                         title:'Warmth Level'
                     },
                     {
-                        url:'',
+                        href:'#Size',
                         title:'Size'
                     },
                 ]
@@ -26,15 +26,15 @@ module.exports ={
                 title:"More Info:",
                 cards:[
                     {
-                        url:'',
+                        href:'#How to Clean',
                         title:'How to Clean'
                     },
                     {
-                        url:'',
+                        href:'#FAQ',
                         title:'FAQ'
                     },
                     {
-                        url:'',
+                        href:'#Reviews',
                         title:'Reviews'
                     }
                 ]
