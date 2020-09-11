@@ -1,7 +1,8 @@
 .tcs-cards-features{
-    &__ctaLogo{
-        width: auto;
-        height: 196px;
+    .rectangle{
+        width: 255px;
+        height: 143px;
+        background-color: $greyrect;
     }
 
     &__ctaButton{
@@ -17,7 +18,10 @@
 @include media-breakpoint-up(md) {
     .tcs-cards-features{
         background-color: $light-blue-50;
-
+        .rectangle{
+            width: 223px;
+            height: 125px;
+        }
         &__ctaLogo{
             top: 38px;
             left: -15px;
