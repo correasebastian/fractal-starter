@@ -10,7 +10,7 @@ module.exports={
             },
             {
                 title:"600-650",
-                subtitle1:"Better",
+                subtitle1:"BETTER",
                 p1:"A high-quality down with plump and resilient clusters. 600-650 fill power provides warmth and wonderful loft.",
                 subtitle2:"Recommended:",
                 p2:"Alberta",
@@ -18,7 +18,7 @@ module.exports={
             ,
             {
                 title:"700-750",
-                subtitle1:"Best",
+                subtitle1:"BEST",
                 p1:"Our most luxurious down from select cold climate geese. 700-750 fill power Hungarian goose down provides the largest down clusters with exceptional loft.",
                 subtitle2:"Recommended:",
                 p2:"Legends Luxury Royal",
