@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Poppins";
+    font-family: "Poppins-R";
     font-style: normal;
     font-weight: normal;
     src: local("Poppins Regular"), url("../fonts/Poppins-Regular.woff") format("woff");
@@ -57,7 +57,8 @@
 // fonts
 $lora-reg: "Lora-Reg";
 $lora-italic: "Lora-Italic";
-$poppins-m: "Poppins Md";
+$poppins-md: "Poppins Md";
+$poppins-m: "Poppins-R";
 
 .fs-10 {
     font-size: 10px;
@@ -91,8 +92,12 @@ $poppins-m: "Poppins Md";
     font-family: $lora-reg;
 }
 .ff-pm {
+    font-family: $poppins-md;
+}
+.ff-pr {
     font-family: $poppins-m;
 }
+
 
 .flh-1p5 {
     line-height: 1.57;
