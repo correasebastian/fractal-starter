@@ -14,16 +14,17 @@
                 </div>
             </div>
             <div class="col-12 col-lg-9">
-                <div class="tcs-cards-features__cards-container mr-2 row">
+                <div class="tcs-cards-features__cards-container row">
 
                     {{#each cards}}
 
                     <div class="tcs-cards-features__card py-1 col-12 col-lg-4 py-lg-0">
-                        <h3 class="tcs-cards-features__card-title ff-lr fs-40 fc-lb-30 text-uppercase text-center">
-                            {{title}}
-                        </h3>
                         <div class="tcs-cards-features__details">
-                            <hr>
+                            <h3 class="tcs-cards-features__card-title ff-lr fs-40 fc-lb-30 text-uppercase text-center">
+                                {{title}}
+                            </h3>
+
+                            <hr class="tcs-cards-features__line">
 
                             <h4 class="fs-16 ff-pm fc-blue">
                                 {{subtitle1}}
