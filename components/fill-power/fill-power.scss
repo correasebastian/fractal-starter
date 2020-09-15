@@ -1,19 +1,20 @@
-.tcs-cards-features{
-    &__logo{
-        width: 177px;
-        top: 0;
-        left: 9ch;
-        opacity: .15;
-    }
+.tcs-cards-features {
+  &__logo {
+    width: 177px;
+    top: 0;
+    left: 9ch;
+    opacity: 0.15;
+  }
 }
 
 @include media-breakpoint-up(lg) {
-    .tcs-cards-features{
-        background-color: $light-blue-50;
+  .tcs-cards-features {
+    background-color: $light-blue-50;
 
-        &__logo{
-            top: -20px;
-            left: -15px;
-        }
+    &__logo {
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
     }
+  }
 }

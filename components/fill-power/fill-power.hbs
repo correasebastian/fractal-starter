@@ -1,44 +1,46 @@
 <section class="tcs-cards-features px-1 mx-lg-4 mb-3">
     <div class="bg-lb-50 px-2 px-lg-0 py-lg-4">
         {{!-- <div class="embed-responsive embed-responsive-16by9"> --}}
-           {{!-- <div class="tcs-embed-fill d-flex flex-column justify-content-center"> --}}
+        {{!-- <div class="tcs-embed-fill d-flex flex-column justify-content-center"> --}}
         <div class="row">
             <div class="col-12 col-lg-3">
-            <div class=" position-relative py-3 py-lg-0">
-                <img class="tcs-cards-features__logo position-absolute img-fluid" src="https://res.cloudinary.com/dg1knuetg/image/upload/v1598650527/TCSSeal-SmallScalePositive_di4zva.png" alt="" srcset="">
-                <h2 class="fc-blue fs-38 position-relative">
-                    Fill Power  
-                </h2>
-            </div>
+                <div class=" position-relative py-3 py-lg-0">
+                    <img class="tcs-cards-features__logo position-absolute img-fluid"
+                        src="https://res.cloudinary.com/dg1knuetg/image/upload/v1598650527/TCSSeal-SmallScalePositive_di4zva.png"
+                        alt="" srcset="">
+                    <h2 class="fc-blue fs-38 position-relative text-center">
+                        Fill Power
+                    </h2>
+                </div>
             </div>
             <div class="col-12 col-lg-9">
                 <div class="tcs-cards-features__cards-container mr-2 row">
 
                     {{#each cards}}
-                    
-                        <div class="tcs-cards-features__card py-1 col-12 col-lg-4 py-lg-0">
-                            <h3 class="tcs-cards-features__card-title ff-lr fs-40 fc-lb-30 text-uppercase">
-                                {{title}}
-                            </h3>
 
-                            <hr>
+                    <div class="tcs-cards-features__card py-1 col-12 col-lg-4 py-lg-0">
+                        <h3 class="tcs-cards-features__card-title ff-lr fs-40 fc-lb-30 text-uppercase text-center">
+                            {{title}}
+                        </h3>
 
-                            <h4 class="fs-16 ff-pm fc-blue">
-                                {{subtitle1}}
-                            </h4>
+                        <hr>
 
-                            <p class="tcs-copy-medium ff-pr flh-1p5">
-                                {{p1}}
-                            </p>
+                        <h4 class="fs-16 ff-pm fc-blue">
+                            {{subtitle1}}
+                        </h4>
 
-                            <h5 class="fc-blue-2 ff-pr fs-14">
-                                {{subtitle2}}
-                            </h5>
+                        <p class="tcs-copy-medium ff-pr flh-1p5">
+                            {{p1}}
+                        </p>
 
-                            <p class="tcs-copy-medium ff-pr flh-1p5">
-                                {{p2}}
-                            </p>
-                        </div>
+                        <h5 class="fc-blue-2 ff-pr fs-14">
+                            {{subtitle2}}
+                        </h5>
+
+                        <p class="tcs-copy-medium ff-pr flh-1p5">
+                            {{p2}}
+                        </p>
+                    </div>
                     {{/each}}
                 </div>
             </div>
