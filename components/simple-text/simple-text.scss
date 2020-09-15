@@ -56,13 +56,13 @@
     font-size: 18px;
   }
   .tcs-callout__down {
-    width: 190px;
-    left: 25px;
-    top: 40px;
-    opacity: 0.15;
+    width: 190px !important;
+    left: 25px !important;
+    top: 40px !important;
+    opacity: 0.15 !important;
   }
   .tcs-callout-title__down {
-    line-height: 52px;
+    line-height: 52px !important;
   }
 }
 
