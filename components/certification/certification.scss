@@ -1,26 +1,25 @@
-.tcs-certification{
-
-    &__list{
-        > div:first-of-type{
-            border-top: 2px solid $light-blue;
-        }
+.tcs-certification {
+  &__list {
+    > div:first-of-type {
+      border-top: 2px solid $light-blue;
     }
+  }
 
-    &__collapse-card{
-        border-bottom: 2px solid $light-blue;
+  &__collapse-card {
+    border-bottom: 2px solid $light-blue;
 
-        button{
-            max-width: 100%;
-        }
-        button[aria-expanded="true"]{
-            .open-icon{
-                display: none;
-            }
-        }
-        button:not([aria-expanded="true"]){
-            .close-icon{
-                display: none;
-            }
-        }
+    button {
+      max-width: 100%;
     }
+    button {
+      .fa-collapse-icon:before {
+        content: "\f068";
+      }
+      &.collapsed {
+        .fa-collapse-icon:before {
+          content: "\f067";
+        }
+      }
+    }
+  }
 }
