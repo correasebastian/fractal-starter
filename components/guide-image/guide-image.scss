@@ -13,12 +13,12 @@
     }
 
     &__btt{
-        font-family: $lora-italic;
-        font-size: 14px;
+        font-family: $lora-italic !important;
+        font-size: 14px !important;
         color: $blue;
-        text-decoration: underline;
-        font-style: italic;
-        width: auto;
+        text-decoration: underline !important;
+        font-style: italic !important;
+        width: auto !important;
     }
 
     &__icon{
