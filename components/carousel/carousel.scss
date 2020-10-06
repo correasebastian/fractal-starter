@@ -19,6 +19,12 @@
 
     $yellow:#e7dc97;
 
+    &__button{
+        line-height: initial !important;
+        min-width: 100% !important;
+        padding: 5px !important;
+    }
+
     &--warmth{
         padding-left: 40px;
         padding-right: 40px;
