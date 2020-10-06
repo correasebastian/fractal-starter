@@ -1,4 +1,13 @@
 .tcs-certification {
+
+  button.btn-primary {
+    max-width: 100%;
+    width: auto;
+    line-height: initial;
+    padding: 5px !important;
+    min-width: 350px;
+  }
+
   &__list {
     > div:first-of-type {
       border-top: 2px solid $light-blue;
