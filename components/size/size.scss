@@ -1,5 +1,10 @@
 $table-row-color:#c4d0d980; //improvised
 .tcs-size{
+
+    .tcs-container-md {
+        background-color: $light-blue-50 !important;
+    }
+
     &__table{
         thead{
             &:after{
