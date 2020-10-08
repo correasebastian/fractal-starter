@@ -30,8 +30,11 @@ html, body {
 }
 
 .tcs-certification__collapse-card {
-    button {
-        //border: 1px solid red;
+    button.btn.btn-block.px-0 {
+        min-width: 100% !important;
+        color: $fblack !important;
+        background-color: white !important;
+        border: none !important;
     }
 }
 
