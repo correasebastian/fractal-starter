@@ -14,7 +14,7 @@
 
     &__btt{
         font-family: $lora-italic !important;
-        font-size: 14px !important;
+        font-size: 16px !important;
         color: $blue;
         text-decoration: underline !important;
         font-style: italic !important;
@@ -47,12 +47,12 @@
 
     &__text{
         @extend .py-1; 
-        font-size: 14px;
+        font-size: 16px;
         @extend .mb-0;
     }
 
     &__body{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.57;
         p{
             font-family: $lora-reg;
