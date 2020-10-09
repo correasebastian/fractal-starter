@@ -37,6 +37,10 @@ html, body {
         border: none !important;
         margin: 10px 0;
     }
+
+    .collapse p {
+        font-family: $lora-reg;
+    }
 }
 
 .tcs-guide-jumbo__body.px-2.py-2.my-2.px-lg-4.py-lg-3 {
