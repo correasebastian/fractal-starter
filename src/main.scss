@@ -76,6 +76,10 @@ html, body {
     background-color: white;
 }
 
+.more-information-hyperlink {
+    text-decoration: underline;
+}
+
 // fix header on "mobile experience"
 @media screen and (max-width: 65em){
     .tcs-jumbo{
