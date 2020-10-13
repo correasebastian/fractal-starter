@@ -4,15 +4,18 @@ module.exports={
         slides:[
             {
                 img:"https://res.cloudinary.com/dg1knuetg/image/upload/w_992,ar_1:1,c_fill/v1598883146/car-1.png",
-                subtitle:"Sheet Guide"
+                subtitle:"Sheet Guide",
+                h3:"LaCrosse® Down Comforter"
             },
             {
                 img:"https://res.cloudinary.com/dg1knuetg/image/upload/w_992,ar_1:1,c_fill/v1598883155/car-2.png",
-                subtitle:"Pillow Guide"
+                subtitle:"Pillow Guide",
+                h3:"Legends® Luxury Geneva PrimaLoft® Down Alternative Comforter"
             },
             {
                 img:"https://res.cloudinary.com/dg1knuetg/image/upload/w_992,ar_1:1,c_fill/v1598883165/car-3.png",
-                subtitle:"Sleep Better Guide"
+                subtitle:"Sleep Better Guide",
+                h3:"Legends® Luxury Royal Down Comforter"
             },
         ]
     },
