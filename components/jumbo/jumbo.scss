@@ -9,13 +9,13 @@
         font-weight: 500;
         font-family: $poppins-r;
         letter-spacing: 1.3px;
-        color: $white
+        color: $blue !important;
     }
 
     &__title{
         width: 20ch; // this could be percentage too
         font-size: 27px;
-        color: $white
+        color: $blue !important;
     }
    
 }
