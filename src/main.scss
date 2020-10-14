@@ -80,6 +80,10 @@ html, body {
     text-decoration: underline;
 }
 
+.warmth-container.py-4.d-lg-flex {
+    padding-top: 0!important;
+}
+
 // fix header on "mobile experience"
 @media screen and (max-width: 65em){
     .tcs-jumbo{
