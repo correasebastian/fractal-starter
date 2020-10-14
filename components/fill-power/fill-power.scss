@@ -5,6 +5,12 @@
     left: 9ch;
     opacity: 0.15;
   }
+
+  .fill-power-level {
+    letter-spacing: 2px;
+    font-family: "Poppins Md";
+    font-size: 18px;
+  }
 }
 
 @include media-breakpoint-up(lg) {
