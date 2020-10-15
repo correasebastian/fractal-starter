@@ -14,10 +14,7 @@
     }
 
     .swiper-wrapper{
-        height: auto;
-        .swiper-slide.tcs-carousel-slide-height{
-            height: auto !important;
-        }
+        height: fit-content;
     }
     
 
