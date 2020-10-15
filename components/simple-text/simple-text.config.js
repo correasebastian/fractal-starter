@@ -34,12 +34,12 @@ module.exports ={
                         id:"card1f",
                         class:"show",
                         title:"What is the difference between a comforter and duvet insert?",
-                        text:"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident."
+                        text:"Comforters and duvet inserts are essentially the same thing.  Both are typically filled with down, feathers, or synthetic fibers, both will keep you warm, and both can be used with our duvet covers."
                     },
                     {
                         id:"card2f",
                         title:"What are the different kinds of down feathers?",
-                        text:"Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident."
+                        text:"We use three types of premium feathers in our down products: regular down, European down, and Hungarian goose down."
                     }
                     ,
                     {
