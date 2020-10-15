@@ -92,6 +92,31 @@ html, body {
     border-radius: 3px !important;
 }
 
+.best-sellers-stamp {
+    position: absolute;
+    width: 200px;
+    left: 30px;
+    top: -100px;
+}
+
+@media screen and (max-width: 1300px) {
+    .best-sellers-stamp {
+        width: 100px;
+        top: -50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .best-sellers-stamp {
+        width: 75px;
+        top: -37px;
+    }
+}
+
+.best-selling-section {
+    overflow: visible !important;
+}
+
 // fix header on "mobile experience"
 @media screen and (max-width: 65em){
     .tcs-jumbo{
