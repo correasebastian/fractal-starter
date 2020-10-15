@@ -15,11 +15,11 @@
 
     .swiper-wrapper{
         height: auto;
+        .swiper-slider.tcs-carousel-slide-height{
+            height: auto !important;
+        }
     }
     
-    .tcs-carousel-slide-height{
-        height: auto !important;
-    }
 
     $yellow:#e7dc97;
 
