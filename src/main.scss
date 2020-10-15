@@ -88,6 +88,10 @@ html, body {
     padding: 40px 15px !important;
 }
 
+._lgc-css .btn {
+    border-radius: 3px !important;
+}
+
 // fix header on "mobile experience"
 @media screen and (max-width: 65em){
     .tcs-jumbo{
