@@ -84,6 +84,10 @@ html, body {
     padding-top: 0!important;
 }
 
+.tcs-simple-text.py-2.tcs-container-md.py-md-4.introductory-text {
+    padding: 40px 15px !important;
+}
+
 // fix header on "mobile experience"
 @media screen and (max-width: 65em){
     .tcs-jumbo{
