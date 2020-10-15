@@ -117,12 +117,16 @@ html, body {
     overflow: visible !important;
 }
 
+.life-time-symbol-img {
+    width: 24px;
+}
+
 // fix header on "mobile experience"
 @media screen and (max-width: 65em){
     .tcs-jumbo{
         margin-top: 216px;
     }
-    .c-header__logo.c-header__logo{
+    .c-header__logo.c-header__logo {
         height: 65px;
     }
 }
