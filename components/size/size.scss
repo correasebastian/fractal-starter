@@ -5,6 +5,12 @@ $table-row-color:#c4d0d980; //improvised
         background-color: $light-blue-50 !important;
     }
 
+    @include media-breakpoint-up(lg) {
+        .deskSpace{
+            margin-bottom: 20px;
+        }
+     }
+
     &__table{
         thead{
             &:after{
