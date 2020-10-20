@@ -1,3 +1,4 @@
+
 module.exports ={
     context:{
     },
@@ -79,7 +80,8 @@ module.exports ={
                     {
                         title:"Legends® Luxury Geneva PrimaLoft® Deluxe Down Alternative Comforter",
                         subtitle:"Keeps your body heat in & outside cold out— PrimaLoft® works",
-                        text:"I'm tired of down and the feathers getting all over the place as it ages, so this is the first time using a PrimaLoft® comforter. I bought a queen size, medium warmth comforter. I live in Connecticut and sleep in the bedroom facing the north side (no sun) of the house. The room can get cold! In fact… Read more",
+                        text:"I'm tired of down and the feathers getting all over the place as it ages, so this is the first time using a PrimaLoft® comforter. I bought a queen size, medium warmth comforter. I live in Connecticut and sleep in the bedroom facing the north side (no sun) of the house. The room can get cold! In fact… ",
+                        read: "Read more",
                         author:"Mark, Central Connecticut"
                     },
                     {
