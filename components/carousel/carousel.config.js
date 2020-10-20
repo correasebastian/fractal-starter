@@ -6,7 +6,8 @@ module.exports={
                 img:"https://res.cloudinary.com/dg1knuetg/image/upload/w_992,ar_1:1,c_fill/v1598883146/car-1.png",
                 subtitle:"Sheet Guide",
                 h3:"LaCrosse® Down Comforter",
-                salePrice:"$189.00 - $399.00"
+                salePrice:"$189.00 - $399.00",
+                invisible:"invisible text, invisible text, invisible"
             },
             {
                 img:"https://res.cloudinary.com/dg1knuetg/image/upload/w_992,ar_1:1,c_fill/v1598883155/car-2.png",
@@ -18,7 +19,8 @@ module.exports={
                 img:"https://res.cloudinary.com/dg1knuetg/image/upload/w_992,ar_1:1,c_fill/v1598883165/car-3.png",
                 subtitle:"Sleep Better Guide",
                 h3:"Legends® Luxury Royal Down Comforter",
-                salePrice:"$499.00 - $989.00"
+                salePrice:"$499.00 - $989.00",
+                invisible:"invisible text, invisible text"
             },
         ]
     },
