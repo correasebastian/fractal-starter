@@ -1,4 +1,4 @@
-.tcs-cards-features {
+.tcs-cards-featuresfill {
   &__logo__feather {
     width: 177px;
     top: 0;
@@ -14,7 +14,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .tcs-cards-features {
+  .tcs-cards-featuresfill {
     background-color: $light-blue-50;
 
     &__logo__feather {
