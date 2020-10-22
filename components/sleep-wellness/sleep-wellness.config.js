@@ -4,19 +4,19 @@ module.exports ={
             {
                 id: 'heroMobile',
                 className: 'img-fit fill-container d-md-none',
-                url: '/public/images/1001_02_SoftBedding_1263.png',
+                url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dwc0a36c0e/comforter-guide-2020/images/1001_02_SoftBedding_1263.png',
                 altText: 'Hero Img Mobile'
             },
             {
                 id: 'heroTablet',
                 className: 'img-fit fill-container d-none d-md-block d-lg-none',
-                url: '/public/images/1001_02_SoftBedding_12632x.png',
+                url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dw060f8f6b/comforter-guide-2020/images/1001_02_SoftBedding_12632x.png',
                 altText: 'Hero Img Tablet'
             },
             {
                 id: 'heroDesktop',
                 className: 'img-fit fill-container d-none d-lg-block',
-                url: '/public/images/1001_02_SoftBedding_12632x.png',
+                url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dw09fee465/comforter-guide-2020/images/1001_02_SoftBedding_12633x.png',
                 altText: 'Hero Img Desktop'
             }
         ],
@@ -24,19 +24,19 @@ module.exports ={
             {
                 id: 'logoMobile',
                 className: 'd-md-none',
-                url: 'public/images/SW_logo.png',
+                url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dw52c9822d/comforter-guide-2020/images/SW_logo.png',
                 altText: 'Logo Mobile'
             },
             {
                 id: 'logoTablet',
                 className: 'd-none d-md-inline d-lg-none',
-                url: 'public/images/SW_logo2x.png',
+                url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dw1be45d68/comforter-guide-2020/images/SW_logo2x.png',
                 altText: 'Logo Tablet'
             },
             {
                 id: 'logoDesktop',
                 className: 'd-none d-lg-inline',
-                url: 'public/images/SW_logo3x.png',
+                url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dw5f3aaeb7/comforter-guide-2020/images/SW_logo3x.png',
                 altText: 'Logo Desktop'
             }
         ],
