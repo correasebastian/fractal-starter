@@ -1,0 +1,54 @@
+.sleep-wellness-hero-banner {
+    flex: 0 0 100%;;
+    height: 250.7px;
+    display: inline-block;
+
+    @include media-breakpoint-up(md){
+        flex: 0 0 65.62%;
+        max-width: 840px;
+        height: 561px;
+    }
+}
+
+.sleep-wellness-section-4 {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 100%;
+
+    @include media-breakpoint-up(md) {
+        flex: 0 0 34.38%;
+    }
+
+    &__body-text-section {
+        padding: 0 10px;
+        max-width: 357px;
+    }
+
+    &__logo-header {
+        padding: 10px 0;
+        flex: 0 0 100%;
+
+        @include media-breakpoint-up(md){
+            padding: 104px 0 0 0;
+        }
+    }
+
+    &__header-text {
+        font-size: 27px;
+        color: $primary;
+        flex: 0 0 100%;
+
+        @include media-breakpoint-up(md) {
+            font-size: 50px;
+        }
+    }
+
+    &__body-text {
+        font-family: $lora-reg;
+        flex: 0 0 100%;
+    }
+
+    &__arrow-section {
+        flex: 0 0 100%;
+    }
+}
