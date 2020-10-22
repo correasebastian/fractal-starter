@@ -9,13 +9,13 @@ module.exports ={
             },
             {
                 id: 'heroTablet',
-                className: 'img-fit fill-container d-none d-md-block d-lg-none',
+                className: 'img-fit fill-container d-none d-md-inline-block d-lg-none',
                 url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dw060f8f6b/comforter-guide-2020/images/1001_02_SoftBedding_12632x.png',
                 altText: 'Hero Img Tablet'
             },
             {
                 id: 'heroDesktop',
-                className: 'img-fit fill-container d-none d-lg-block',
+                className: 'img-fit fill-container d-none d-lg-inline-block',
                 url: 'http://dev07-web-hanoverdirect.demandware.net/on/demandware.static/-/Sites-TCS-Library/default/dw09fee465/comforter-guide-2020/images/1001_02_SoftBedding_12633x.png',
                 altText: 'Hero Img Desktop'
             }

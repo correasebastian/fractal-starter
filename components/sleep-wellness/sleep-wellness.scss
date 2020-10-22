@@ -1,7 +1,10 @@
 .sleep-wellness-hero-banner {
     flex: 0 0 100%;;
     display: inline-block;
-    height: 100%;
+    
+    img {
+        object-position: center center;
+    }
 
     @include media-breakpoint-up(md){
         flex: 0 0 65.62%;
