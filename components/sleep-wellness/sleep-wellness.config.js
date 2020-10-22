@@ -11,13 +11,13 @@ module.exports ={
                 id: 'heroTablet',
                 className: 'img-fit d-none d-md-block d-lg-none',
                 url: '/public/images/1001_02_SoftBedding_12632x.png',
-                altText: 'Hero Img Mobile'
+                altText: 'Hero Img Tablet'
             },
             {
                 id: 'heroDesktop',
                 className: 'img-fit d-none d-lg-block',
                 url: '/public/images/1001_02_SoftBedding_12632x.png',
-                altText: 'Hero Img Mobile'
+                altText: 'Hero Img Desktop'
             }
         ],
         imageLogo: [
@@ -40,11 +40,7 @@ module.exports ={
                 altText: 'Logo Desktop'
             }
         ],
-        copyText: [
-            {
-                header: 'Better Sleep, Better Life',
-                body: 'No matter what kind of sleeper you are or maybe have on your gift list this year, we’ve created this guide to help you and your loved ones wake up on the right side of bed every day.'
-            }
-        ]
+        copyTextHeader: 'Better Sleep, Better Life',
+        copyTextBody: 'No matter what kind of sleeper you are or maybe have on your gift list this year, we’ve created this guide to help you and your loved ones wake up on the right side of bed every day.'       
     }
 }
