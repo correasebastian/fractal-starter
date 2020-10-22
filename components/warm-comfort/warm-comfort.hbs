@@ -1,0 +1,28 @@
+<section class="warm-comfort row justify-content-center">
+    <div class="warm-comfort__hero-img-container order-1">
+        {{#each imageHero}}
+            <img class="{{className}}" src="{{url}}" alt="{{altText}}" />
+        {{/each}}
+    </div>
+
+    <div class="warm-comfort__copy-text-section order-2">
+        {{#each imageLogo}}
+            <img src="{{url}}" alt="{{altText}}" class="{{className}}" />
+        {{/each}}  
+        {{copyTextHeader}}
+        {{copyTextBody}} 
+        <a href="{{copylinkUrl}}"> {{copyLinkText}} </a>
+    </div>
+
+    <div class="warm-comfort__expert-tip order-3">
+        EXPERT TIP #001
+        {{experTipBody}}
+    </div>
+
+    <div class="warm-comfort__image-asset d-none d-md-block">
+        {{#each imageAsset}}
+            <img src="{{url}}" alt="{{altText}}" />
+        {{/each}}    
+    </div>
+
+</section>

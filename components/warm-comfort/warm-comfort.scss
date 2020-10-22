@@ -1,0 +1,37 @@
+.warm-comfort {
+
+    &__hero-img-container{
+        background-color:black;
+        flex: 0 0 100%;
+
+        @include media-breakpoint-up(md){
+            flex: 0 0 51.25%;
+        }
+    }
+
+    &__hero-img {
+        width: 738px;
+        height: 548px;
+    }
+
+    &__image-asset{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &__copy-text-section {
+        flex: 0 0 100%;
+
+        @include media-breakpoint-up(md) {
+            flex: 0 0 36.18%;
+        }
+    }
+}
+
+
+.icons-warm {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
