@@ -3,19 +3,19 @@ module.exports ={
         imageHeroBanner: [
             {
                 id: 'heroMobile',
-                className: 'img-fit d-md-none',
+                className: 'img-fit fill-container d-md-none',
                 url: '/public/images/1001_02_SoftBedding_1263.png',
                 altText: 'Hero Img Mobile'
             },
             {
                 id: 'heroTablet',
-                className: 'img-fit d-none d-md-block d-lg-none',
+                className: 'img-fit fill-container d-none d-md-block d-lg-none',
                 url: '/public/images/1001_02_SoftBedding_12632x.png',
                 altText: 'Hero Img Tablet'
             },
             {
                 id: 'heroDesktop',
-                className: 'img-fit d-none d-lg-block',
+                className: 'img-fit fill-container d-none d-lg-block',
                 url: '/public/images/1001_02_SoftBedding_12632x.png',
                 altText: 'Hero Img Desktop'
             }
