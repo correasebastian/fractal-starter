@@ -1,13 +1,15 @@
 <section class="tcs-the-guide" id="the-guide">
     <div class="tcs-the-guide__nav d-flex justify-content-center border-bottom">
-       <div class="guide-title d-flex align-items-center fs-16 px-2">
+       <div class="guide-title d-flex align-items-center align-self-center fs-16 px-2 py-1">
            in this guide...
        </div>
+       <span class="guide-divider align-self-center"></span>
         {{#each option}}
-        <button class="option-container d-flex align-items-center align-self-center flex-column border-right border-left px-2 fs-12 ff-pm">
-            <img class="guide-icon" src="{{icon}}" alt="">
+        <button class="option-container d-flex align-items-center align-self-center flex-column px-2 py-1 px-1-sm fs-12 ff-pm">
+            <img class="guide-icon d-none d-sm-block" src="{{icon}}" alt="">
             <span class="guide-option">{{title}}</span>
         </button>
+        <span class="guide-divider align-self-center"></span>
         {{/each}}
     </div>
 </section>

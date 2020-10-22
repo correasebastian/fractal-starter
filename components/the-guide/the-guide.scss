@@ -1,19 +1,49 @@
 .tcs-the-guide{
     &__nav{
+        overflow: auto;
+        white-space: nowrap;
+        height: 59px;
         .guide-title{
-            height: 100px;
-            color: $gray;
-            font-family: $lora-italic;
+            display: inline-block;
         }
         .option-container{
+            display: inline-block;
             border-style: none;
             background-color: $white;
-            color: $primary;
-
-            .guide-icon{
-                margin-bottom: 7px;
-                width: 25px;
-            }
+            color: $black;
+        }
+        .guide-divider{
+            display: inline-block;
+            width: 0;
+            height: 40px;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
         }
     }
+    @include media-breakpoint-up(lg) {
+        &__nav{
+            .guide-title{
+                height: 100px;
+                color: $gray;
+                font-family: $lora-italic;
+            }
+            .option-container{
+                border-style: none;
+                background-color: $white;
+                color: $primary;
+                
+                .guide-divider{
+                    display: inline-block;
+                    width: 0;
+                    height: 60px;
+                    border-left: 1px solid #ccc;
+                    border-right: 1px solid #ccc;
+                }
+                .guide-icon{
+                    margin-bottom: 7px;
+                    width: 25px;
+                }
+            }
+        }
+      }
 }
