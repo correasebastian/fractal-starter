@@ -22,8 +22,8 @@
     }
     @include media-breakpoint-up(lg) {
         &__nav{
+            height: 100px;
             .guide-title{
-                height: 100px;
                 color: $gray;
                 font-family: $lora-italic;
             }
